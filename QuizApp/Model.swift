@@ -13,6 +13,7 @@ class Model {
     
     dynamic var title = ""
     dynamic var category = ""
+    dynamic var id = 0
     dynamic var q1 = ""
     dynamic var a1q1 = ""
     dynamic var a2q1 = ""

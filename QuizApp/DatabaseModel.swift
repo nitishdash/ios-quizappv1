@@ -17,6 +17,7 @@ class DatabaseModel: Object{
     
     dynamic var title = ""
     dynamic var category = ""
+    dynamic var id = 0
     dynamic var q1 = ""
     dynamic var a1q1 = ""
     dynamic var a2q1 = ""
@@ -48,6 +49,19 @@ class DatabaseModel: Object{
     dynamic var a4q5 = ""
     dynamic var q5a = 0
     
-    
-    
+
+override static func primaryKey() -> String? {
+    return "id"
+}
+
+//Incrementa ID
+func IncrementaID() -> Int{
+    let realm = try! Realm()
+    if let retNext = realm.objects(DatabaseModel.self).sorted(byKeyPath: "id").first?.id {
+        return retNext + 1
+    }else{
+        return 1
+    }
+}
+
 }

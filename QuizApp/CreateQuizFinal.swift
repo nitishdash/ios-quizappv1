@@ -46,9 +46,13 @@ class CreateQuizFinal: UIViewController {
     
     func saveQuestion(){
         
+        
+        
         let quiz1 = DatabaseModel()
+        data.id = quiz1.IncrementaID()
         quiz1.title = data.title
         quiz1.category = data.category
+        quiz1.id = data.id
         quiz1.q1 = data.q1
         quiz1.a1q1 = data.a1q1
         quiz1.a2q1 = data.a2q1

@@ -17,7 +17,10 @@ class ViewController: UIViewController {
     @IBOutlet weak var Button2: UIButton!
     @IBOutlet weak var QuestionLabel: UILabel!
     
-    var correctAnswer = String()
+    var correctAnswer = 0
+    var lastRndNum = 0
+    
+    var quizId = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -45,7 +48,7 @@ class ViewController: UIViewController {
             Button2.setTitle("Kolkata", for: UIControlState.normal)
             Button3.setTitle("Balasore", for: UIControlState.normal)
             Button4.setTitle("Bhubaneswar", for: UIControlState.normal)
-            correctAnswer = "1"
+//            correctAnswer = "1"
             break
             
         case 2:
@@ -54,7 +57,7 @@ class ViewController: UIViewController {
             Button2.setTitle("Kolkata", for: UIControlState.normal)
             Button3.setTitle("Balasore", for: UIControlState.normal)
             Button4.setTitle("Bhubaneswar", for: UIControlState.normal)
-            correctAnswer = "3"
+//            correctAnswer = "3"
             break
             
         case 3:
@@ -63,7 +66,7 @@ class ViewController: UIViewController {
             Button2.setTitle("Kolkata", for: UIControlState.normal)
             Button3.setTitle("Balasore", for: UIControlState.normal)
             Button4.setTitle("Bhubaneswar", for: UIControlState.normal)
-            correctAnswer = "4"
+//            correctAnswer = "4"
             break
             
         case 4:
@@ -72,22 +75,20 @@ class ViewController: UIViewController {
             Button2.setTitle("Kolkata", for: UIControlState.normal)
             Button3.setTitle("Balasore", for: UIControlState.normal)
             Button4.setTitle("Bhubaneswar", for: UIControlState.normal)
-            correctAnswer = "2"
+//            correctAnswer = "2"
             break
             
         default:
             
             break
             
-            
         }
-        
         
     }
     
     @IBAction func Button1Action(_ sender: Any) {
         
-        if(correctAnswer=="1"){
+        if(correctAnswer==0){
             NSLog("You are correct!")
         }
         else{
@@ -96,7 +97,7 @@ class ViewController: UIViewController {
         
     }
     @IBAction func Button2Actions(_ sender: Any) {
-        if(correctAnswer=="2"){
+        if(correctAnswer==1){
             NSLog("You are correct!")
         }
         else{
@@ -104,7 +105,7 @@ class ViewController: UIViewController {
         }
     }
     @IBAction func Button3Actions(_ sender: Any) {
-        if(correctAnswer=="3"){
+        if(correctAnswer==2){
             NSLog("You are correct!")
         
         }
@@ -116,7 +117,7 @@ class ViewController: UIViewController {
 
     @IBAction func Btn4Action(_ sender: Any) {
         
-        if(correctAnswer=="4"){
+        if(correctAnswer==3){
             NSLog("You are correct!")
     }
         else{
@@ -125,13 +126,13 @@ class ViewController: UIViewController {
     }
     @IBAction func NextQuestion(_ sender: Any) {
         
-        RandomQuestions()
+        randomQuestionDatabase()
         
     }
     
     func randomQuestionDatabase(){
         
-        var rndNum = arc4random() % 4
+        var rndNum = arc4random() % 5
         
         rndNum+=1
         
@@ -149,6 +150,8 @@ class ViewController: UIViewController {
 //        for quiz in allData{
 //            
 //        }
+        
+        lastRndNum = Int(rndNum)
         
     }
 }
