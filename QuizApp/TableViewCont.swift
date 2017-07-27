@@ -14,6 +14,7 @@ class TableViewCont: UITableViewController {
     
     var titles = [String]()
     var categories = [String]()
+    var rowId = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -49,7 +50,7 @@ class TableViewCont: UITableViewController {
         let cell : TableViewCell = tableView.dequeueReusableCell(withIdentifier: "reuseId", for: indexPath) as! TableViewCell
 
         cell.nameLabel.text = titles[indexPath.row]
-                cell.subLabel.text = categories[indexPath.row]
+        cell.subLabel.text = categories[indexPath.row]
 
         return cell
     }
@@ -106,7 +107,7 @@ class TableViewCont: UITableViewController {
         
         let allData = realm.objects(DatabaseModel)
         
-        var byName = allData.sorted(byKeyPath: "title", ascending: true)
+        var byName = allData.sorted(byKeyPath: "id", ascending: true)
         
         for quiz in byName{
             
@@ -116,6 +117,29 @@ class TableViewCont: UITableViewController {
         }
         
         tableView.reloadData()
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        if segue.identifier == "cellSegue" {
+            
+            var destVC : ViewController = segue.destination as! ViewController
+//dirty imple coz id is not necessarily the index of teble view cell
+         destVC.quizId = rowId
+        }
+        
+        
+        
+       
+        
+        
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath){
+        
+        rowId = indexPath.row
+        
+        performSegue(withIdentifier: "cellSegue", sender: Any?.self)
     }
     
 

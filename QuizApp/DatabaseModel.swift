@@ -54,14 +54,9 @@ override static func primaryKey() -> String? {
     return "id"
 }
 
-//Incrementa ID
-func IncrementaID() -> Int{
-    let realm = try! Realm()
-    if let retNext = realm.objects(DatabaseModel.self).sorted(byKeyPath: "id").first?.id {
-        return retNext + 1
-    }else{
-        return 1
+    func incrementID() -> Int {
+        let realm = try! Realm()
+        return (realm.objects(DatabaseModel.self).max(ofProperty: "id") as Int? ?? 0) + 1
     }
-}
 
 }

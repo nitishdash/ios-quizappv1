@@ -49,9 +49,9 @@ class CreateQuizFinal: UIViewController {
         
         
         let quiz1 = DatabaseModel()
-        data.id = quiz1.IncrementaID()
-        quiz1.title = data.title
-        quiz1.category = data.category
+        data.id = quiz1.incrementID()
+        quiz1.title = titleText
+        quiz1.category = categoryText
         quiz1.id = data.id
         quiz1.q1 = data.q1
         quiz1.a1q1 = data.a1q1
@@ -87,11 +87,17 @@ class CreateQuizFinal: UIViewController {
         
         let realm = try! Realm()
         
-        try! realm.write {
+        try! realm.write({ () -> Void in
             realm.add(quiz1)
             print("Added quiz!")
-            
-        }
+        })
+        
+        
+//        try! realm.write {
+//            realm.add(quiz1)
+//            print("Added quiz!")
+//            
+//        }
         
     
     }
@@ -110,8 +116,8 @@ class CreateQuizFinal: UIViewController {
        
         
         if(counter2 == 0){
-            //data.title = self.titleText
-            //data.category = self.categoryText
+//            data.title = titleText
+//            data.category = categoryText
             data.q1 = questionTF.text!
             data.a1q1 = option1TF.text!
             data.a2q1 = option2TF.text!

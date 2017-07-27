@@ -25,6 +25,7 @@
 		59583A9A1F28954300B3E0EC /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59583A991F28954300B3E0EC /* Model.swift */; };
 		59EFBCFA1F29032100075F22 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EFBCF91F29032100075F22 /* TableViewCell.swift */; };
 		59EFBCFC1F29040900075F22 /* TableViewCont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EFBCFB1F29040900075F22 /* TableViewCont.swift */; };
+		59EFBCFE1F29BB5400075F22 /* ScoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EFBCFD1F29BB5400075F22 /* ScoreVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		59583A991F28954300B3E0EC /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		59EFBCF91F29032100075F22 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		59EFBCFB1F29040900075F22 /* TableViewCont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCont.swift; sourceTree = "<group>"; };
+		59EFBCFD1F29BB5400075F22 /* ScoreVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreVC.swift; sourceTree = "<group>"; };
 		791B4E2AC01A8650FE9D4755 /* Pods-QuizAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuizAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuizAppTests/Pods-QuizAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9F06CA0B6E5431CB3A1CA075 /* Pods-QuizApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuizApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuizApp/Pods-QuizApp.release.xcconfig"; sourceTree = "<group>"; };
 		A86A2A91C16916FF88B05905 /* Pods-QuizAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuizAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuizAppUITests/Pods-QuizAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				593071D51F2639C900FC7B08 /* AppDelegate.swift */,
+				59EFBCFD1F29BB5400075F22 /* ScoreVC.swift */,
 				593071D71F2639C900FC7B08 /* ViewController.swift */,
 				593071D91F2639C900FC7B08 /* Main.storyboard */,
 				593071DF1F2639C900FC7B08 /* Assets.xcassets */,
@@ -472,6 +475,7 @@
 			files = (
 				593071D81F2639C900FC7B08 /* ViewController.swift in Sources */,
 				593072091F27AF0C00FC7B08 /* CreateQuizInit.swift in Sources */,
+				59EFBCFE1F29BB5400075F22 /* ScoreVC.swift in Sources */,
 				59EFBCFC1F29040900075F22 /* TableViewCont.swift in Sources */,
 				593072071F277FA400FC7B08 /* PageVc.swift in Sources */,
 				5930720B1F2845D800FC7B08 /* CreateQuizFinal.swift in Sources */,
