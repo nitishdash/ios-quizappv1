@@ -10,10 +10,14 @@ A fully functional quiz app made using Swift 3.
 
 ### Screenshots
 
-
+![Title](https://i.imgur.com/MYwWeJ7.png)
+![QuizCorrect](https://i.imgur.com/Tzvl3U0.png)
+![QuizWrong](https://i.imgur.com/cKwebTg.png)
+![Score](https://i.imgur.com/KLKDQIC.png)
+![adsfsd](https://i.imgur.com/4ZMDEn7.png)
 
 ```
-Give examples
+:)
 ```
 
 ### Installing
@@ -70,7 +74,7 @@ Please read [CONTRIBUTING.md](https://gist.github.com/nitishdash) for details on
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Nitish Dash** - *Initial work* - [Nitish](https://github.com/nitishdash)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
