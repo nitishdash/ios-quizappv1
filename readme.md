@@ -20,7 +20,14 @@ A fully functional quiz app made using Swift 3.
 
 <img src="https://camo.githubusercontent.com/9d43d845ed3bc90520c990c4b8b020467d2a56ff/68747470733a2f2f692e696d6775722e636f6d2f345a4d44456e372e706e67" data-canonical-src="https://i.imgur.com/4ZMDEn7.png" width=“400” height=“715”/>
 
+<img src="http://img4.imagetitan.com/img.php?image=16_intro1.png" data-canonical-src="http://img4.imagetitan.com/img.php?image=16_intro1.png" width=“400” height=“715”/>
 
+
+<img src="http://img4.imagetitan.com/img.php?image=16_login1.png" data-canonical-src="http://img4.imagetitan.com/img.php?image=16_login1.png" width=“400” height=“715”/>
+
+<img src="http://img4.imagetitan.com/img.php?image=16_reg2.png" data-canonical-src="http://img4.imagetitan.com/img.php?image=16_reg2.png" width=“400” height=“715”/>
+
+<img src="http://img4.imagetitan.com/img.php?image=16_reg1.png" data-canonical-src="http://img4.imagetitan.com/img.php?image=16_reg1.png" width=“400” height=“715”/>
 
 ```
 :)
