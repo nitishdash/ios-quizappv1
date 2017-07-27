@@ -10,7 +10,7 @@ A fully functional quiz app made using Swift 3.
 
 ### Screenshots
 
-![Title](https://i.imgur.com/MYwWeJ7.png=100)
+![Title](https://i.imgur.com/MYwWeJ7.png=60)
 ![QuizCorrect](https://i.imgur.com/Tzvl3U0.png | width=100) 
 ![QuizWrong](https://i.imgur.com/cKwebTg.png | width=100) 
 ![Score](https://i.imgur.com/KLKDQIC.png | width=100) 
