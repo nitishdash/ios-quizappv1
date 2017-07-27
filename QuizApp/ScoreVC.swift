@@ -19,6 +19,8 @@ class ScoreVC: UIViewController {
         super.viewDidLoad()
         
         scoreLabel.text = "\(score)%"
+        
+        self.navigationItem.setHidesBackButton(true, animated:true);
     }
     
     
