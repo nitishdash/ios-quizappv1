@@ -11,7 +11,9 @@ A fully functional quiz app made using Swift 3.
 ### Screenshots
 
 ![Title](https://i.imgur.com/MYwWeJ7.png=60px)
-<img src="https://camo.githubusercontent.com/d55d522a8074f1624908c428d7919f1226e6a02f/68747470733a2f2f692e696d6775722e636f6d2f4d597757654a372e706e673d36307078" data-canonical-src="https://i.imgur.com/MYwWeJ7.png" width=“350"/>
+
+<img src="https://camo.githubusercontent.com/d55d522a8074f1624908c428d7919f1226e6a02f/68747470733a2f2f692e696d6775722e636f6d2f4d597757654a372e706e673d36307078" data-canonical-src="https://i.imgur.com/MYwWeJ7.png" width=“400” height=“715”/>
+
 ![QuizCorrect](https://i.imgur.com/Tzvl3U0.png | width=100) 
 ![QuizWrong](https://i.imgur.com/cKwebTg.png | width=100) 
 ![Score](https://i.imgur.com/KLKDQIC.png | width=100) 
