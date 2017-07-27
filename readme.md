@@ -10,14 +10,20 @@ A fully functional quiz app made using Swift 3.
 
 ### Screenshots
 
-![Title](https://i.imgur.com/MYwWeJ7.png=60px)
+<img src="https://camo.githubusercontent.com/d55d522a8074f1624908c428d7919f1226e6a02f/68747470733a2f2f692e696d6775722e636f6d2f4d597757654a372e706e673d36307078" data-canonical-src="https://i.imgur.com/MYwWeJ7.png" width=“400” height=“715”/>
 
 <img src="https://camo.githubusercontent.com/d55d522a8074f1624908c428d7919f1226e6a02f/68747470733a2f2f692e696d6775722e636f6d2f4d597757654a372e706e673d36307078" data-canonical-src="https://i.imgur.com/MYwWeJ7.png" width=“400” height=“715”/>
 
-![QuizCorrect](https://i.imgur.com/Tzvl3U0.png | width=100) 
-![QuizWrong](https://i.imgur.com/cKwebTg.png | width=100) 
-![Score](https://i.imgur.com/KLKDQIC.png | width=100) 
-![adsfsd](https://i.imgur.com/4ZMDEn7.png | width=100)
+<img src="https://camo.githubusercontent.com/d55d522a8074f1624908c428d7919f1226e6a02f/68747470733a2f2f692e696d6775722e636f6d2f4d597757654a372e706e673d36307078" data-canonical-src="https://i.imgur.com/MYwWeJ7.png" width=“400” height=“715”/>
+
+<img src="https://camo.githubusercontent.com/d55d522a8074f1624908c428d7919f1226e6a02f/68747470733a2f2f692e696d6775722e636f6d2f4d597757654a372e706e673d36307078" data-canonical-src="https://i.imgur.com/MYwWeJ7.png" width=“400” height=“715”/>
+
+<img src="https://camo.githubusercontent.com/d55d522a8074f1624908c428d7919f1226e6a02f/68747470733a2f2f692e696d6775722e636f6d2f4d597757654a372e706e673d36307078" data-canonical-src="https://i.imgur.com/MYwWeJ7.png" width=“400” height=“715”/>
+
+![QuizCorrect](https://i.imgur.com/Tzvl3U0.png) 
+![QuizWrong](https://i.imgur.com/cKwebTg.png) 
+![Score](https://i.imgur.com/KLKDQIC.png) 
+![adsfsd](https://i.imgur.com/4ZMDEn7.png)
 
 
   - <img src="https://camo.githubusercontent.com/331400aee821efda2e36ee9b3bc8bce93b975109/68747470733a2f2f6779617a6f2e636f6d2f65623563353734316236613961313663363932313730613431613439633835382e706e67" alt="" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" />
