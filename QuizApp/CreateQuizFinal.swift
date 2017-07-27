@@ -64,7 +64,7 @@ class CreateQuizFinal: UIViewController {
         quiz1.a3q1 = data.a3q1
         quiz1.a4q1 = data.a4q1
         quiz1.q1a  = data.q1a
-        quiz1.q2 = data.q1
+        quiz1.q2 = data.q2
         quiz1.a1q2 = data.a1q2
         quiz1.a2q2 = data.a2q2
         quiz1.a3q2 = data.a3q2

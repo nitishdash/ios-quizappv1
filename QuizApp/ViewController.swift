@@ -40,7 +40,11 @@ class ViewController: UIViewController {
         print(quizId)
         
         directQuestion()
-        
+       
+        Button1.backgroundColor=UIColor.darkGray
+        Button2.backgroundColor=UIColor.darkGray
+        Button3.backgroundColor=UIColor.darkGray
+        Button4.backgroundColor=UIColor.darkGray
        
     }
 
@@ -70,6 +74,7 @@ class ViewController: UIViewController {
             correctLabel.text = "CORRECT!"
             
             NSLog("You are correct!")
+            Button1.backgroundColor=UIColor.green
         }
         else{
             //directQuestion()
@@ -80,10 +85,22 @@ class ViewController: UIViewController {
             correctLabel.textColor = UIColor.red
             correctLabel.text = "WRONG!"
             NSLog("You are wrong!")
+            
+            Button1.backgroundColor=UIColor.red
+            
         }
         
     }
+    
     @IBAction func Button2Actions(_ sender: Any) {
+        
+        
+        Button1.isEnabled = false
+        Button2.isEnabled = false
+        Button3.isEnabled = false
+        Button4.isEnabled = false
+    
+        
         if(correctAnswer==1){
             
             score += 20
@@ -92,6 +109,8 @@ class ViewController: UIViewController {
             correctLabel.isHidden = false
             correctLabel.textColor = UIColor.green
             correctLabel.text = "CORRECT!"
+            
+            Button2.backgroundColor=UIColor.green
 
             
         }
@@ -101,9 +120,17 @@ class ViewController: UIViewController {
             correctLabel.textColor = UIColor.red
             correctLabel.text = "WRONG!"
             NSLog("You are wrong!")
+            Button2.backgroundColor=UIColor.red
+            
         }
     }
     @IBAction func Button3Actions(_ sender: Any) {
+        
+        Button1.isEnabled = false
+        Button2.isEnabled = false
+        Button3.isEnabled = false
+        Button4.isEnabled = false
+        
         if(correctAnswer==2){
             
             score += 20
@@ -112,6 +139,7 @@ class ViewController: UIViewController {
             correctLabel.isHidden = false
             correctLabel.textColor = UIColor.green
             correctLabel.text = "CORRECT!"
+            Button3.backgroundColor=UIColor.green
         
         }
         else{
@@ -120,12 +148,18 @@ class ViewController: UIViewController {
             correctLabel.textColor = UIColor.red
             correctLabel.text = "WRONG!"
             NSLog("You are wrong!")
+            Button3.backgroundColor=UIColor.red
 
         }
         
     }
 
     @IBAction func Btn4Action(_ sender: Any) {
+        
+        Button1.isEnabled = false
+        Button2.isEnabled = false
+        Button3.isEnabled = false
+        Button4.isEnabled = false
         
         if(correctAnswer==3){
             score += 20
@@ -134,6 +168,7 @@ class ViewController: UIViewController {
             correctLabel.isHidden = false
             correctLabel.textColor = UIColor.green
             correctLabel.text = "CORRECT!"
+            Button4.backgroundColor=UIColor.green
 
     }
         else{
@@ -141,7 +176,9 @@ class ViewController: UIViewController {
             correctLabel.isHidden = false
             correctLabel.textColor = UIColor.red
             correctLabel.text = "WRONG!"
-            NSLog("You are wrong!")        }
+            NSLog("You are wrong!")
+            Button4.backgroundColor=UIColor.red
+        }
     }
     @IBAction func NextQuestion(_ sender: Any) {
         
@@ -149,6 +186,11 @@ class ViewController: UIViewController {
         Button2.isEnabled = true
         Button3.isEnabled = true
         Button4.isEnabled = true
+        
+        Button1.backgroundColor=UIColor.darkGray
+        Button2.backgroundColor=UIColor.darkGray
+        Button3.backgroundColor=UIColor.darkGray
+        Button4.backgroundColor=UIColor.darkGray
         
         directQuestion()
         

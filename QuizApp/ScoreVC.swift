@@ -24,4 +24,9 @@ class ScoreVC: UIViewController {
     }
     
     
+    @IBAction func backToHomeButton(_ sender: Any) {
+        
+        self.performSegue(withIdentifier: "backToHome", sender: Any?.self)
+        
+    }
 }
