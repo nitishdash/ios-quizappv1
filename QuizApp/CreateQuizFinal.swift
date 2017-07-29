@@ -221,6 +221,7 @@ class CreateQuizFinal: UIViewController {
         
         saveQuestion()
         
+        self.delete(Any?)
     }
     
 }
